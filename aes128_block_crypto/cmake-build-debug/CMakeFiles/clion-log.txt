@@ -1,0 +1,4 @@
+/usr/local/IDE/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/IDE/clion/bin/ninja/linux/ninja -G Ninja /home/dio/Repositories/clion_space/AES_self
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dio/Repositories/clion_space/AES_self/cmake-build-debug

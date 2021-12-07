@@ -2,42 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "AES_self_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/dio/Repositories/clion_space/AES_self/cmake-build-debug"
-		},
-		{
-			"name" : "AES_self_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "AES_self_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/dio/Repositories/clion_space/AES_self"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -91,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dio/Repositories/clion_space/AES_self/cmake-build-debug"
+			"value" : "/home/dio/Repositories/Clion_project/aes128_block_crypto/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -487,7 +451,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dio/Repositories/clion_space/AES_self"
+			"value" : "/home/dio/Repositories/Clion_project/aes128_block_crypto"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -727,7 +691,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "AES_self"
+			"value" : "aes128_block_crypto"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1008,6 +972,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "aes128_block_crypto_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/dio/Repositories/Clion_project/aes128_block_crypto/cmake-build-debug"
+		},
+		{
+			"name" : "aes128_block_crypto_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "aes128_block_crypto_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/dio/Repositories/Clion_project/aes128_block_crypto"
 		}
 	],
 	"kind" : "cache",

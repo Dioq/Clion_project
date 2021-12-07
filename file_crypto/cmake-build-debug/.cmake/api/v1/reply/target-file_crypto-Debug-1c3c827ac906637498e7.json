@@ -104,13 +104,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "aes128_block_crypt.c",
+			"path" : "aes128_crypt.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "aes128_crypt.c",
+			"path" : "aes128_block_crypt.c",
 			"sourceGroupIndex" : 0
 		}
 	],

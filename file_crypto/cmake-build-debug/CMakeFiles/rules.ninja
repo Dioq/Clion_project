@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__file_crypto_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/local/IDE/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/dio/Repositories/clion_space/file_crypto -B/home/dio/Repositories/clion_space/file_crypto/cmake-build-debug
+  command = /usr/local/IDE/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/dio/Repositories/Clion_project/file_crypto -B/home/dio/Repositories/Clion_project/file_crypto/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

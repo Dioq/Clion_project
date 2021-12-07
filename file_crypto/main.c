@@ -179,8 +179,8 @@ void decrypt_func() {
 }
 
 int main(int argc, char *argv[]) {
-    encrypt_func();
-//    decrypt_func();
+//    encrypt_func();
+    decrypt_func();
 
 /*    char *path = (char *) calloc(256, 1);
     int c = 0;

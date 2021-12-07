@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dio/Repositories/clion_space/file_crypto/cmake-build-debug"
+			"value" : "/home/dio/Repositories/Clion_project/aes128_project/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -451,7 +451,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dio/Repositories/clion_space/file_crypto"
+			"value" : "/home/dio/Repositories/Clion_project/aes128_project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "file_crypto"
+			"value" : "aes128_project"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -974,7 +974,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "file_crypto_BINARY_DIR",
+			"name" : "aes128_project_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -983,10 +983,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dio/Repositories/clion_space/file_crypto/cmake-build-debug"
+			"value" : "/home/dio/Repositories/Clion_project/aes128_project/cmake-build-debug"
 		},
 		{
-			"name" : "file_crypto_IS_TOP_LEVEL",
+			"name" : "aes128_project_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -998,7 +998,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "file_crypto_SOURCE_DIR",
+			"name" : "aes128_project_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1007,7 +1007,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dio/Repositories/clion_space/file_crypto"
+			"value" : "/home/dio/Repositories/Clion_project/aes128_project"
 		}
 	],
 	"kind" : "cache",

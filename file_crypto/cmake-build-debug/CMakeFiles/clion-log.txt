@@ -1,4 +1,4 @@
-/usr/local/IDE/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/IDE/clion/bin/ninja/linux/ninja -G Ninja /home/dio/Repositories/clion_space/file_crypto
+/usr/local/IDE/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/IDE/clion/bin/ninja/linux/ninja -G Ninja /home/dio/Repositories/Clion_project/file_crypto
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/dio/Repositories/clion_space/file_crypto/cmake-build-debug
+-- Build files have been written to: /home/dio/Repositories/Clion_project/file_crypto/cmake-build-debug

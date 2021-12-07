@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="file_crypto" targetName="file_crypto" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b13e595d-86bd-4316-a059-9bc8ecbc8092" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../aes128_block_crypto/.idea/aes128_block_crypto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aes128_block_crypto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aes128_project/.idea/aes128_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aes128_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/.idea/AES_self.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.cmake/api/v1/reply/cache-v2-2a1d2602be352d4057bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-ad9ea484197d1c66a2a9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d3357b4848a1026dd241.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-07T16-12-23-0639.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.cmake/api/v1/reply/target-AES_self-Debug-9afafcff8f8aecb62d6c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/AES_self" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/AES_self.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_block_crypto/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/.idea/aes128.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.cmake/api/v1/reply/cache-v2-d25119b4e83a5475342a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1e1fa6cdf4a9833350f6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-b8af38b9840f780d2553.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-06T17-25-10-0436.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.cmake/api/v1/reply/target-aes128-Debug-2c11dc10ffd513bbbef3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/aes128.dir/aes128_blcok_crypt.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/aes128.dir/aes128_crypt.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/aes128.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/aes128" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../aes128_project/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-70aea116ecb5883e1b63.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-624689776496f1f4dd34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fddb70182ed85f1644b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-06T19-37-25-0624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-file_crypto-Debug-9bc0b72a1b791c932414.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_crypto.dir/aes128_block_crypt.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_crypto.dir/aes128_crypt.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_crypto.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/file_crypto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="21xzV6wUZ9TZtGS2qSTctDjHvKX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="file_crypto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="file_crypto" TARGET_NAME="file_crypto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="file_crypto" RUN_TARGET_NAME="file_crypto">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b13e595d-86bd-4316-a059-9bc8ecbc8092" name="Changes" comment="" />
+      <created>1638897546764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638897546764</updated>
+      <workItem from="1638897548019" duration="181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

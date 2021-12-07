@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "AES_self"
+			"path" : "aes128_block_crypto"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "AES_self::@6890427a1f51a3e7e1df",
+	"id" : "aes128_block_crypto::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "AES_self",
-	"nameOnDisk" : "AES_self",
+	"name" : "aes128_block_crypto",
+	"nameOnDisk" : "aes128_block_crypto",
 	"paths" : 
 	{
 		"build" : ".",

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: aes128
+# Project: aes128_project
 # Configurations: Debug
 # =============================================================================
 
@@ -39,72 +39,72 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/dio/Repositories/clion_space/aes128/cmake-build-debug/
+cmake_ninja_workdir = /home/dio/Repositories/Clion_project/aes128_project/cmake-build-debug/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/dio/Repositories/Clion_project/aes128_project/cmake-build-debug && /usr/local/IDE/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/dio/Repositories/clion_space/aes128/cmake-build-debug && /usr/local/IDE/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/dio/Repositories/clion_space/aes128 -B/home/dio/Repositories/clion_space/aes128/cmake-build-debug
+  COMMAND = cd /home/dio/Repositories/Clion_project/aes128_project/cmake-build-debug && /usr/local/IDE/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/dio/Repositories/Clion_project/aes128_project -B/home/dio/Repositories/Clion_project/aes128_project/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/dio/Repositories/clion_space/aes128/cmake-build-debug && /usr/local/IDE/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
-# Object build statements for EXECUTABLE target aes128
+# Object build statements for EXECUTABLE target aes128_project
 
 
 #############################################
-# Order-only phony target for aes128
+# Order-only phony target for aes128_project
 
-build cmake_object_order_depends_target_aes128: phony || CMakeFiles/aes128.dir
+build cmake_object_order_depends_target_aes128_project: phony || CMakeFiles/aes128_project.dir
 
-build CMakeFiles/aes128.dir/main.c.o: C_COMPILER__aes128_Debug /home/dio/Repositories/clion_space/aes128/main.c || cmake_object_order_depends_target_aes128
-  DEP_FILE = CMakeFiles/aes128.dir/main.c.o.d
+build CMakeFiles/aes128_project.dir/main.c.o: C_COMPILER__aes128_project_Debug /home/dio/Repositories/Clion_project/aes128_project/main.c || cmake_object_order_depends_target_aes128_project
+  DEP_FILE = CMakeFiles/aes128_project.dir/main.c.o.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/aes128.dir
-  OBJECT_FILE_DIR = CMakeFiles/aes128.dir
+  OBJECT_DIR = CMakeFiles/aes128_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/aes128_project.dir
 
-build CMakeFiles/aes128.dir/aes128_blcok_crypt.c.o: C_COMPILER__aes128_Debug /home/dio/Repositories/clion_space/aes128/aes128_blcok_crypt.c || cmake_object_order_depends_target_aes128
-  DEP_FILE = CMakeFiles/aes128.dir/aes128_blcok_crypt.c.o.d
+build CMakeFiles/aes128_project.dir/aes128_crypt.c.o: C_COMPILER__aes128_project_Debug /home/dio/Repositories/Clion_project/aes128_project/aes128_crypt.c || cmake_object_order_depends_target_aes128_project
+  DEP_FILE = CMakeFiles/aes128_project.dir/aes128_crypt.c.o.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/aes128.dir
-  OBJECT_FILE_DIR = CMakeFiles/aes128.dir
+  OBJECT_DIR = CMakeFiles/aes128_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/aes128_project.dir
 
-build CMakeFiles/aes128.dir/aes128_crypt.c.o: C_COMPILER__aes128_Debug /home/dio/Repositories/clion_space/aes128/aes128_crypt.c || cmake_object_order_depends_target_aes128
-  DEP_FILE = CMakeFiles/aes128.dir/aes128_crypt.c.o.d
+build CMakeFiles/aes128_project.dir/aes128_blcok_crypt.c.o: C_COMPILER__aes128_project_Debug /home/dio/Repositories/Clion_project/aes128_project/aes128_blcok_crypt.c || cmake_object_order_depends_target_aes128_project
+  DEP_FILE = CMakeFiles/aes128_project.dir/aes128_blcok_crypt.c.o.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/aes128.dir
-  OBJECT_FILE_DIR = CMakeFiles/aes128.dir
+  OBJECT_DIR = CMakeFiles/aes128_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/aes128_project.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target aes128
+# Link build statements for EXECUTABLE target aes128_project
 
 
 #############################################
-# Link the executable aes128
+# Link the executable aes128_project
 
-build aes128: C_EXECUTABLE_LINKER__aes128_Debug CMakeFiles/aes128.dir/main.c.o CMakeFiles/aes128.dir/aes128_blcok_crypt.c.o CMakeFiles/aes128.dir/aes128_crypt.c.o
+build aes128_project: C_EXECUTABLE_LINKER__aes128_project_Debug CMakeFiles/aes128_project.dir/main.c.o CMakeFiles/aes128_project.dir/aes128_crypt.c.o CMakeFiles/aes128_project.dir/aes128_blcok_crypt.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/aes128.dir
+  OBJECT_DIR = CMakeFiles/aes128_project.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = aes128
-  TARGET_PDB = aes128.dbg
+  TARGET_FILE = aes128_project
+  TARGET_PDB = aes128_project.dbg
 
 # =============================================================================
 # Target aliases.
@@ -115,9 +115,9 @@ build aes128: C_EXECUTABLE_LINKER__aes128_Debug CMakeFiles/aes128.dir/main.c.o C
 # =============================================================================
 
 #############################################
-# Folder: /home/dio/Repositories/clion_space/aes128/cmake-build-debug
+# Folder: /home/dio/Repositories/Clion_project/aes128_project/cmake-build-debug
 
-build all: phony aes128
+build all: phony aes128_project
 
 # =============================================================================
 # Built-in targets

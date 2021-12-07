@@ -1,4 +1,10 @@
-/usr/local/IDE/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/IDE/clion/bin/ninja/linux/ninja -G Ninja /home/dio/Repositories/clion_space/AES_self
+/usr/local/IDE/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/IDE/clion/bin/ninja/linux/ninja -G Ninja /home/dio/Repositories/Clion_project/aes128_block_crypto
+-- The C compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/dio/Repositories/clion_space/AES_self/cmake-build-debug
+-- Build files have been written to: /home/dio/Repositories/Clion_project/aes128_block_crypto/cmake-build-debug

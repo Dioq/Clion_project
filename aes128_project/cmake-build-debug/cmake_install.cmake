@@ -1,4 +1,4 @@
-# Install script for directory: /home/dio/Repositories/clion_space/aes128
+# Install script for directory: /home/dio/Repositories/Clion_project/aes128_project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dio/Repositories/clion_space/aes128/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dio/Repositories/Clion_project/aes128_project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

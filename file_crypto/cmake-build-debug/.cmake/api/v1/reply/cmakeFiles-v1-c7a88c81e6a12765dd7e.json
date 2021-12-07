@@ -86,8 +86,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/dio/Repositories/clion_space/aes128/cmake-build-debug",
-		"source" : "/home/dio/Repositories/clion_space/aes128"
+		"build" : "/home/dio/Repositories/Clion_project/file_crypto/cmake-build-debug",
+		"source" : "/home/dio/Repositories/Clion_project/file_crypto"
 	},
 	"version" : 
 	{

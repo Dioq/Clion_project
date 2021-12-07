@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/aes128.iml" filepath="$PROJECT_DIR$/.idea/aes128.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aes128_project.iml" filepath="$PROJECT_DIR$/.idea/aes128_project.iml" />
     </modules>
   </component>
 </project>

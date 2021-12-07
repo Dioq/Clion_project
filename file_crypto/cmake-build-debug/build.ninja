@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/dio/Repositories/clion_space/file_crypto/cmake-build-debug/
+cmake_ninja_workdir = /home/dio/Repositories/Clion_project/file_crypto/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/dio/Repositories/clion_space/file_crypto/cmake-build-debug && /usr/local/IDE/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/dio/Repositories/clion_space/file_crypto -B/home/dio/Repositories/clion_space/file_crypto/cmake-build-debug
+  COMMAND = cd /home/dio/Repositories/Clion_project/file_crypto/cmake-build-debug && /usr/local/IDE/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/dio/Repositories/Clion_project/file_crypto -B/home/dio/Repositories/Clion_project/file_crypto/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/dio/Repositories/clion_space/file_crypto/cmake-build-debug && /usr/local/IDE/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/dio/Repositories/Clion_project/file_crypto/cmake-build-debug && /usr/local/IDE/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,20 +72,20 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_file_crypto: phony || CMakeFiles/file_crypto.dir
 
-build CMakeFiles/file_crypto.dir/main.c.o: C_COMPILER__file_crypto_Debug /home/dio/Repositories/clion_space/file_crypto/main.c || cmake_object_order_depends_target_file_crypto
+build CMakeFiles/file_crypto.dir/main.c.o: C_COMPILER__file_crypto_Debug /home/dio/Repositories/Clion_project/file_crypto/main.c || cmake_object_order_depends_target_file_crypto
   DEP_FILE = CMakeFiles/file_crypto.dir/main.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/file_crypto.dir
   OBJECT_FILE_DIR = CMakeFiles/file_crypto.dir
 
-build CMakeFiles/file_crypto.dir/aes128_block_crypt.c.o: C_COMPILER__file_crypto_Debug /home/dio/Repositories/clion_space/file_crypto/aes128_block_crypt.c || cmake_object_order_depends_target_file_crypto
-  DEP_FILE = CMakeFiles/file_crypto.dir/aes128_block_crypt.c.o.d
+build CMakeFiles/file_crypto.dir/aes128_crypt.c.o: C_COMPILER__file_crypto_Debug /home/dio/Repositories/Clion_project/file_crypto/aes128_crypt.c || cmake_object_order_depends_target_file_crypto
+  DEP_FILE = CMakeFiles/file_crypto.dir/aes128_crypt.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/file_crypto.dir
   OBJECT_FILE_DIR = CMakeFiles/file_crypto.dir
 
-build CMakeFiles/file_crypto.dir/aes128_crypt.c.o: C_COMPILER__file_crypto_Debug /home/dio/Repositories/clion_space/file_crypto/aes128_crypt.c || cmake_object_order_depends_target_file_crypto
-  DEP_FILE = CMakeFiles/file_crypto.dir/aes128_crypt.c.o.d
+build CMakeFiles/file_crypto.dir/aes128_block_crypt.c.o: C_COMPILER__file_crypto_Debug /home/dio/Repositories/Clion_project/file_crypto/aes128_block_crypt.c || cmake_object_order_depends_target_file_crypto
+  DEP_FILE = CMakeFiles/file_crypto.dir/aes128_block_crypt.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/file_crypto.dir
   OBJECT_FILE_DIR = CMakeFiles/file_crypto.dir
@@ -98,7 +98,7 @@ build CMakeFiles/file_crypto.dir/aes128_crypt.c.o: C_COMPILER__file_crypto_Debug
 #############################################
 # Link the executable file_crypto
 
-build file_crypto: C_EXECUTABLE_LINKER__file_crypto_Debug CMakeFiles/file_crypto.dir/main.c.o CMakeFiles/file_crypto.dir/aes128_block_crypt.c.o CMakeFiles/file_crypto.dir/aes128_crypt.c.o
+build file_crypto: C_EXECUTABLE_LINKER__file_crypto_Debug CMakeFiles/file_crypto.dir/main.c.o CMakeFiles/file_crypto.dir/aes128_crypt.c.o CMakeFiles/file_crypto.dir/aes128_block_crypt.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/file_crypto.dir
   POST_BUILD = :
@@ -115,7 +115,7 @@ build file_crypto: C_EXECUTABLE_LINKER__file_crypto_Debug CMakeFiles/file_crypto
 # =============================================================================
 
 #############################################
-# Folder: /home/dio/Repositories/clion_space/file_crypto/cmake-build-debug
+# Folder: /home/dio/Repositories/Clion_project/file_crypto/cmake-build-debug
 
 build all: phony file_crypto
 

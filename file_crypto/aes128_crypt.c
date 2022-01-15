@@ -33,9 +33,13 @@ void split_block(Message *msg) {
         printf("Not Enough Memory!\n");
         exit(-1);
     }
-    unsigned long num = msg->len;
-    uint8_t *data_len_ptr = (uint8_t *) &num;
-    memcpy(new_p, data_len_ptr, 8);
+
+    union {
+        unsigned long val;
+        uint8_t bytes[8];
+    } data;
+    data.val = msg->len;
+    memcpy(new_p, data.bytes, 8);
     memcpy(new_p + 8, msg->message, msg->len);
     if (remainder != 0) {
         // 尾部填充 0,最后一字节是填充的个数
@@ -54,7 +58,13 @@ void split_block(Message *msg) {
 
 // 处理填充 还原文本真实长度
 void handle_filling(Message *msg) {
-    msg->len = (unsigned long) *(msg->message);
+    union {
+        unsigned long val;
+        uint8_t bytes[8];
+    } data;
+
+    memcpy(data.bytes, msg->message, 8);
+    msg->len = data.val;
     msg->message += 8;
 }
 
@@ -94,8 +104,10 @@ void AES_CBC_decrypt(uint8_t key[16], Message *msg) {
     key_expansion(key);
     uint8_t state_matrix[4][4];
 
+    printf("%s %d msg->len = 0x%02lX\n", __FUNCTION__, __LINE__, msg->len);
     // 需要每次与明文异或的 数据
-    uint8_t *obj_ptr = (uint8_t *) calloc(msg->len, 1);
+    uint8_t *new_ptr = (uint8_t *) calloc(msg->len, 1);
+    uint8_t *obj_ptr = new_ptr;
     memcpy(obj_ptr, iv, 16);
     memcpy(obj_ptr + 16, msg->message, (msg->len - 16));
     for (int i = 0; i < msg->len / 16; ++i) {
@@ -105,5 +117,13 @@ void AES_CBC_decrypt(uint8_t key[16], Message *msg) {
         ptr += 16;
         obj_ptr += 16;
     }
+//    printf("%s %d msg->len = 0x%02lX\n", __FUNCTION__, __LINE__, msg->len);
+//    for (int i = 0; i < msg->len; ++i) {
+//        printf("0x%02X ", *(msg->message + i));
+//    }
+//    puts("");
     handle_filling(msg);
+//    printf("%s %d msg->len = 0x%02lX\n", __FUNCTION__, __LINE__, msg->len);
+    free(new_ptr);
+    obj_ptr = NULL;
 }

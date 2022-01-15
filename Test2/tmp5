@@ -1,0 +1,67 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <dlfcn.h>
+#include <unistd.h>
+
+#define Mapfile "/proc/%d/maps"
+
+size_t getLibcbase(int pid) {
+    size_t libcAddr;
+    char *buf;
+    char *end;
+    char mapfile[0x18];
+    sprintf(mapfile, Mapfile, pid);
+    FILE *fd = fopen(mapfile, "r");
+    if (!fd) {
+        printf("open maps error!");
+        exit(1);
+    }
+    //search the libc-.....
+    buf = (char *) malloc(0x100);
+    do {
+        fgets(buf, 0x100, fd);
+    } while (!strstr(buf, "libtest.so"));//"libc-"));
+    end = strchr(buf, '-');
+    libcAddr = strtol(buf, &end, 16);
+    printf("The process %d's libcbase is: 0x%lx\n", pid, libcAddr);
+    fclose(fd);
+    return libcAddr;
+}
+
+size_t getFuncAddr(int pid, char *funcName) {
+    size_t funcAddr;
+    char *buf;
+    char *end;
+    char mapfile[0x18];
+    sprintf(mapfile, Mapfile, pid);
+//    size_t libc_addr = getLibcbase(pid);
+
+    //get function offset from self process, the shared libc.so
+    char *handle = dlopen("/home/dio/Repositories/C_study/func_my/so_base_func_address/libtest.so", RTLD_LAZY);
+    if (!handle) {
+        fprintf(stderr, "%s\n", dlerror());
+        exit(EXIT_FAILURE);
+    }
+    //清除之前存在的错误
+    dlerror();
+
+
+    funcAddr = (size_t) dlsym(handle, funcName);
+    printf("%d function %s address is: 0x%lx\n", __LINE__, funcName, funcAddr);
+//    funcAddr += libc_addr;
+//    printf("function %s address is: 0x%lx\n", funcName, funcAddr);
+    printf("%d function %s address is: 0x%lx\n", __LINE__, funcName, funcAddr);
+    return funcAddr;
+}
+
+int main(int argc, char *argv[]) {
+    if (argc < 2) {
+        return -1;
+    }
+    int pid = atoi(argv[1]);
+//    getLibcbase(pid);
+    getFuncAddr(pid, "hello");
+
+    return 0;
+}

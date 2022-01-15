@@ -1,0 +1,7 @@
+# gcc -rdynamic -no-pie main.c -o main2 -ldl
+
+gcc -no-pie so_base.c symbol_offset.c main.c -o main2
+# ./main2 5582 hello
+
+./main2 `pidof ./main` libtest.so hello  # /home/dio/Repositories/C_study/ptrace_study/x86_64/inject/t3/payload
+

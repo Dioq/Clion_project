@@ -23,7 +23,7 @@ void get_message(char *path, Message **msg) {
     (*msg)->message = (uint8_t *) calloc((*msg)->len, sizeof(uint8_t));
 
     int fd = open(path, O_RDONLY, S_IRWXU | S_IRWXG | S_IRWXO);
-    int size = read(fd, (*msg)->message, (*msg)->len);
+    size_t size = read(fd, (*msg)->message, (*msg)->len);
     if (size < 0) {
         perror("open file fail!");
         exit(1);
@@ -38,7 +38,7 @@ void write_message(char *path, Message *msg) {
         perror("create directory fail!");
         exit(-1);
     }
-    int size = write(fd, msg->message, msg->len);
+    size_t size = write(fd, msg->message, msg->len);
     if (size < 0) {
         perror("open file fail!");
         exit(1);
@@ -58,6 +58,11 @@ void encrypt_directory(char *path) {
         printf("file content is null");
         return;
     }
+    printf("origin text len = 0x%lX\n",msg->len);
+    for (int i = 0; i < msg->len; ++i) {
+        printf("0x%02X ", *(msg->message + i));
+    }
+    puts("");
     AES_CBC_encrypt(key, msg);
     printf("encrypt_directory len = 0x%lX ciphertext:\n", msg->len);
 /*    for (int i = 0; i < msg->len; ++i) {
@@ -87,12 +92,14 @@ void decrypt_directory(char *path) {
         printf("file content is null");
         return;
     }
-//    printf("decrypt_directory origin text len = 0x%lX\n", msg->len);
+//    printf("decrypt_directory origin text = %s\n", msg->message);
+    printf("decrypt_directory origin text len = 0x%lX\n", msg->len);
     AES_CBC_decrypt(key, msg);
-//    printf("decrypt_directory len = 0x%lX plaintext:\n", msg->len);
-//    for (int i = 0; i < msg->len; ++i) {
-//        printf("0x%02X ", *(msg->message + i));
-//    }
+    printf("decrypt_directory len = 0x%lX plaintext:\n", msg->len);
+    for (int i = 0; i < msg->len; ++i) {
+        printf("0x%02X ", *(msg->message + i));
+    }
+    puts("");
 
     char *new_path = (char *) calloc(512, 1);
     strncpy(new_path, path, strlen(path) - 5);
@@ -157,8 +164,7 @@ void readFileList(char *basePath) {
     closedir(dir);
 }
 
-char path_tmp[] = "/home/dio/Downloads/busybox-1.34.1";
-//char path_tmp[] = "/home/dio/Repositories/C_study/my_project/file_protest_aes128/test";
+char path_tmp[] = "/home/dio/Repositories/test";
 
 // 测试
 void encrypt_func() {
